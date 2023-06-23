@@ -1,0 +1,5 @@
+#Build a Quiz App with HTML, CSS, and JS
+- https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx
+- https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript
+- https://docs.emmet.io/ -> HTML/CSS shortuts (ex. .container)
+- https://opentdb.com/ -> fetching questions from web

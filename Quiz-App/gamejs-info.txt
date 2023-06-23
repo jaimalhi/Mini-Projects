@@ -1,0 +1,19 @@
+If we want to fetch questions from a json file locally we do the following assuming we are grabbing from questions.json
+
+===================================================================
+//using Fetch API to get questions from questions.json
+fetch("questions.json")
+    .then(res => { //using then since fetch is a promise
+        //get the body from http response and convert it to json
+        return res.json();
+    })
+    .then(loadedQuestions => {
+        console.log(loadedQuestions);
+        questions = loadedQuestions;
+        startGame();
+    })
+    .catch(error => { 
+        //error catching, usually do something with this
+        console.log(error);
+    });
+===================================================================

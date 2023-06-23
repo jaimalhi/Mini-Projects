@@ -1,0 +1,7 @@
+# token
+config.json
+.env
+
+# dependencies
+node_modules
+
