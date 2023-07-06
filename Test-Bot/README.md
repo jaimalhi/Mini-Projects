@@ -1,6 +1,6 @@
 # Music-Bot -> WIP
 ---
-- Will use **~** as the indentifier
+- Will use **+** as the indentifier
 
 ## Development Tasks
 - [x] add *clean* feature to delete messages from chat
