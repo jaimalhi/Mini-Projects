@@ -4,7 +4,6 @@
 
 ## Development Tasks
 - [x] add *clean* feature to delete messages from chat
-- [x] give every command an *embed* to look professional
 - [ ] add *help* command that shows all other commands
 - [ ] play, stop, skip, and queue music through youtube
 - [ ] auto timeout, ie. leave channel by itself after a set time of no music playing
