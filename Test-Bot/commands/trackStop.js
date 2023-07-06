@@ -1,4 +1,5 @@
 const { SlashCommandBuilder, PermissionsBitField, EmbedBuilder } = require("discord.js");
+const player = require("../index");
 
 module.exports = {
    data: new SlashCommandBuilder()
@@ -14,7 +15,33 @@ module.exports = {
          return await interaction.reply({ embeds: [embed], ephemeral: true });
       }
 
+      // If the user is not in a voice channel, don't allow command
+      if (!(interaction.member instanceof GuildMember) || !interaction.member.voice.channel) {
+         return interaction.reply({
+            content: "You are not in a voice channel!",
+            ephemeral: true,
+         });
+      }
+      if (
+         interaction.guild.me.voice.channelId &&
+         interaction.member.voice.channelId !== interaction.guild.me.voice.channelId
+      ) {
+         return interaction.reply({
+            content: "You are not in my voice channel!",
+            ephemeral: true,
+         });
+      }
+
       //TODO: add command functionality
+      await interaction.deferReply();
+      const queue = player.getQueue(interaction.guildId);
+      // failEmbed creation
+      const failEmbed = new EmbedBuilder()
+         .setColor("Red")
+         .setDescription(`:x: | No music is being played!`);
+      if (!queue || !queue.playing)
+         return interaction.followUp({ embeds: [failEmbed], ephemeral: true });
+      queue.destroy();
 
       // embed creation
       const embed = new EmbedBuilder()
@@ -23,7 +50,7 @@ module.exports = {
 
       // set a timeout to delete message after 3 seconds
       return interaction
-         .reply({ embeds: [embed], ephemeral: true })
+         .followUp({ embeds: [embed], ephemeral: true })
          .then((msg) => {
             setTimeout(() => msg.delete(), 3000);
          })

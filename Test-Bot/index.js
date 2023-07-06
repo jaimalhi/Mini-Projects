@@ -59,6 +59,8 @@ for (const file of eventFiles) {
 
 // ===================================== Creating discord player =====================================
 const player = new Player(client);
+//export the player object
+module.exports = player;
 
 // basic error handlers
 player.on("error", (queue, error) => {
