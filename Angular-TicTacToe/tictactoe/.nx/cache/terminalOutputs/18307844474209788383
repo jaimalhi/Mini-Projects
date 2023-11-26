@@ -1,0 +1,453 @@
+[36m⠋[39m Generating browser application bundles (phase: setup)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: setup)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m  [2m | [22m[1mNames[22m        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mvendor.js[39m[37m            [2m | [22mvendor       [2m | [22m  [96m2.35 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mpolyfills.js[39m[37m         [2m | [22mpolyfills    [2m | [22m[96m333.17 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mstyles.css, styles.js[39m[37m[2m | [22mstyles       [2m | [22m[96m230.91 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mmain.js[39m[37m              [2m | [22mmain         [2m | [22m  [96m7.66 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m           [2m | [22mruntime      [2m | [22m  [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1m [22m                    [2m | [22m[1mInitial Total[22m[2m | [22m  [1m2.92 MB[22m[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-06T22:00:27.378Z[39m[37m[22m - Hash: [1m[37m193ed86486775cad[39m[37m[22m - Time: [1m[37m3137[39m[37m[22mms[0m[39m
+[37m[39m
+[37m** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **[39m
+[37m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m [96m7.87 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-06T22:32:34.384Z[39m[37m[22m - Hash: [1m[37m9cbff10e83d57a70[39m[37m[22m - Time: [1m[37m322[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/square/square.component.ts[0m:[93m13[0m:[93m12[0m - [91merror[0m[90m TS2564: [0mProperty 'value' has no initializer and is not definitely assigned in the constructor.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m13[0m   @Input() value: 'X' | 'O';[39m[22m
+[1m[31m[7m  [0m [91m           ~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m [96m7.91 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-06T22:33:19.454Z[39m[37m[22m - Hash: [1m[37mf64c92e8261287fe[39m[37m[22m - Time: [1m[37m383[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/square/square.component.ts[0m:[93m13[0m:[93m12[0m - [91merror[0m[90m TS2564: [0mProperty 'value' has no initializer and is not definitely assigned in the constructor.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m13[0m   @Input() value: 'X' | 'O';[39m[22m
+[1m[31m[7m  [0m [91m           ~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m [96m8.01 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-06T22:33:58.722Z[39m[37m[22m - Hash: [1m[37m6143158555b2dba8[39m[37m[22m - Time: [1m[37m255[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/square/square.component.ts[0m:[93m13[0m:[93m12[0m - [91merror[0m[90m TS2564: [0mProperty 'value' has no initializer and is not definitely assigned in the constructor.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m13[0m   @Input() value: 'X' | 'O';[39m[22m
+[1m[31m[7m  [0m [91m           ~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m [96m9.59 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-06T22:35:09.603Z[39m[37m[22m - Hash: [1m[37m5cfe8eed1a31bc8d[39m[37m[22m - Time: [1m[37m870[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/square/square.component.ts[0m:[93m13[0m:[93m12[0m - [91merror[0m[90m TS2564: [0mProperty 'value' has no initializer and is not definitely assigned in the constructor.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m13[0m   @Input() value: 'X' | 'O';[39m[22m
+[1m[31m[7m  [0m [91m           ~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m [96m9.59 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-06T22:36:36.607Z[39m[37m[22m - Hash: [1m[37m84526fb1c4c161e0[39m[37m[22m - Time: [1m[37m191[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m [96m9.75 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-06T22:38:09.348Z[39m[37m[22m - Hash: [1m[37md907a5e627093b8f[39m[37m[22m - Time: [1m[37m178[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m9[0m   squares: any[];[39m[22m
+[1m[31m[7m [0m [91m  ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m10[0m   xIsNext: boolean;[39m[22m
+[1m[31m[7m  [0m [91m  ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m11[0m   winner: string;[39m[22m
+[1m[31m[7m  [0m [91m  ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/board/board.component.ts[0m:[93m21[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'null' is not assignable to type 'string'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m21[0m     this.winner = null;[39m[22m
+[1m[31m[7m  [0m [91m    ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m16.96 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-06T22:38:50.520Z[39m[37m[22m - Hash: [1m[37m63793e2a0b5a62d9[39m[37m[22m - Time: [1m[37m170[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./src/app/board/board.component.ts[39m[31m[0m - [0m[91mError: [39m[31m[0mModule build failed (from ./node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js):[39m[22m
+[1m[31mSyntaxError: N:\.Coding-Projects\Angular-TicTacToe\tictactoe\src\app\board\board.component.ts: Unexpected token (15:8)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m [90m 13 |[39m[31m         [36mreturn[39m[31m [36mthis[39m[31m[33m.[39m[31mxIsNext [33m?[39m[31m [32m'O'[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 14 |[39m[31m             [33m:[39m[31m[0m[39m[22m
+[1m[31m[0m[31m[1m>[22m[1m[39m[31m[90m 15 |[39m[31m         [33m;[39m[31m[0m[39m[22m
+[1m[31m[0m [90m    |[39m[31m         [31m[1m^[22m[1m[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 16 |[39m[31m     }[0m[39m[22m
+[1m[31m[0m [90m 17 |[39m[31m     [36mstatic[39m[31m { [36mthis[39m[31m[33m.[39m[31mɵfac [33m=[39m[31m [36mfunction[39m[31m [33mBoardComponent_Factory[39m[31m(t) { [36mreturn[39m[31m [36mnew[39m[31m (t [33m||[39m[31m [33mBoardComponent[39m[31m)()[33m;[39m[31m }[33m;[39m[31m }[0m[39m[22m
+[1m[31m[0m [90m 18 |[39m[31m     [36mstatic[39m[31m { [36mthis[39m[31m[33m.[39m[31mɵcmp [33m=[39m[31m [90m/*@__PURE__*/[39m[31m i0[33m.[39m[31mɵɵdefineComponent({ type[33m:[39m[31m [33mBoardComponent[39m[31m[33m,[39m[31m selectors[33m:[39m[31m [[[32m"app-board"[39m[31m]][33m,[39m[31m decls[33m:[39m[31m [35m2[39m[31m[33m,[39m[31m vars[33m:[39m[31m [35m0[39m[31m[33m,[39m[31m template[33m:[39m[31m [36mfunction[39m[31m [33mBoardComponent_Template[39m[31m(rf[33m,[39m[31m ctx) { [36mif[39m[31m (rf [33m&[39m[31m [35m1[39m[31m) {[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m9[0m   squares: any[];[39m[22m
+[1m[31m[7m [0m [91m  ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m10[0m   xIsNext: boolean;[39m[22m
+[1m[31m[7m  [0m [91m  ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0[39m[22m[1m[31mm[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m11[0m   winner: string;[39m[22m
+[1m[31m[7m  [0m [91m  ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/board/board.component.ts[0m:[93m21[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'null' is not assignable to type 'string'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m21[0m     this.winner = null;[39m[22m
+[1m[31m[7m  [0m [91m    ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/board/board.component.ts[0m:[93m27[0m:[93m3[0m - [91merror[0m[90m TS1005: [0m':' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m27[0m   }[39m[22m
+[1m[31m[7m  [0m [91m  ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m [96m9.81 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-06T22:38:57.201Z[39m[37m[22m - Hash: [1m[37md5e12125c9f77e88[39m[37m[22m - Time: [1m[37m156[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m9[0m   squares: any[];[39m[22m
+[1m[31m[7m [0m [91m  ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m10[0m   xIsNext: boolean;[39m[22m
+[1m[31m[7m  [0m [91m  ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m11[0m   winner: string;[39m[22m
+[1m[31m[7m  [0m [91m  ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/board/board.component.ts[0m:[93m21[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'null' is not assignable to type 'string'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m21[0m     this.winner = null;[39m[22m
+[1m[31m[7m  [0m [91m    ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m [96m9.81 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-06T22:39:03.726Z[39m[37m[22m - Hash: [1m[37mf2562189cc82f222[39m[37m[22m - Time: [1m[37m131[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m9[0m   squares: any[];[39m[22m
+[1m[31m[7m [0m [91m  ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m10[0m   xIsNext: boolean;[39m[22m
+[1m[31m[7m  [0m [91m  ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m11[0m   winner: string;[39m[22m
+[1m[31m[7m  [0m [91m  ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/board/board.component.ts[0m:[93m21[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'null' is not assignable to type 'string'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m21[0m     this.winner = null;[39m[22m
+[1m[31m[7m  [0m [91m    ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m [96m9.81 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-06T22:39:15.199Z[39m[37m[22m - Hash: [1m[37md1fd385f24031fd6[39m[37m[22m - Time: [1m[37m166[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m9[0m   squares: any[];[39m[22m
+[1m[31m[7m [0m [91m  ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m10[0m   xIsNext: boolean;[39m[22m
+[1m[31m[7m  [0m [91m  ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m11[0m   winner: string | null;[39m[22m
+[1m[31m[7m  [0m [91m  ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m [96m9.95 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-06T22:40:01.869Z[39m[37m[22m - Hash: [1m[37m97b7d89c2b84a3ee[39m[37m[22m - Time: [1m[37m159[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m9[0m   squares: any[];[39m[22m
+[1m[31m[7m [0m [91m  ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m10[0m   xIsNext: boolean;[39m[22m
+[1m[31m[7m  [0m [91m  ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m11[0m   winner: string | null;[39m[22m
+[1m[31m[7m  [0m [91m  ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/board/board.component.ts[0m:[93m26[0m:[93m23[0m - [91merror[0m[90m TS2304: [0mCannot find name 'idc'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m26[0m     if (!this.squares[idc]) {[39m[22m
+[1m[31m[7m  [0m [91m                      ~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m [96m9.95 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-06T22:40:06.802Z[39m[37m[22m - Hash: [1m[37m9493d525edd16a8f[39m[37m[22m - Time: [1m[37m169[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m9[0m   squares: any[];[39m[22m
+[1m[31m[7m [0m [91m  ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m10[0m   xIsNext: boolean;[39m[22m
+[1m[31m[7m  [0m [91m  ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m11[0m   winner: string | null;[39m[22m
+[1m[31m[7m  [0m [91m  ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.04 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-06T22:41:14.423Z[39m[37m[22m - Hash: [1m[37m8d3cb72606163176[39m[37m[22m - Time: [1m[37m169[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/board/board.component.ts[0m:[93m21[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'null' is not assignable to type 'string'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m21[0m     this.winner = null;[39m[22m
+[1m[31m[7m  [0m [91m    ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.04 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-06T22:41:26.751Z[39m[37m[22m - Hash: [1m[37m2ea3d6475cb1088d[39m[37m[22m - Time: [1m[37m199[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.44 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-06T22:42:09.283Z[39m[37m[22m - Hash: [1m[37mcb3b50dfd4ee2da4[39m[37m[22m - Time: [1m[37m233[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.63 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-06T22:43:01.355Z[39m[37m[22m - Hash: [1m[37mfcbb7418cef2ad70[39m[37m[22m - Time: [1m[37m252[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m11.07 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-06T22:43:49.529Z[39m[37m[22m - Hash: [1m[37mfa9b7c1defea2a64[39m[37m[22m - Time: [1m[37m167[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m13.77 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-06T22:45:23.552Z[39m[37m[22m - Hash: [1m[37mf017aa9c3217549a[39m[37m[22m - Time: [1m[37m249[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m14.37 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-06T22:45:48.370Z[39m[37m[22m - Hash: [1m[37m25b12b57566568e5[39m[37m[22m - Time: [1m[37m384[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
