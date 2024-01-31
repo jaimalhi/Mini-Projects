@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Meow-Coin Demo</title>
+
+        <link href="main.css" rel="stylesheet" type="text/css">
+
+        <!-- Bootstrap if downloaded on computer -->
+        <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+
+        <!-- Bootstrap via CDN -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <!-- Top Section, title of page -->
+            <div class="row" id="topSection">
+                <div class="col-xs-12 text-center">
+                    <br>
+                    <div id="LogoDiv">
+                        <img class="inline" src="/images/laughing.png" height=64px width=64px>
+                        <h1 class="inline" id="MeowCoinTitle">Meow-Coin</h1>
+                        <img class="inline" src="/images/laughing.png" height=64px width=64px>
+                    </div>
+                    <br><br>
+                    <h1>Your Cat and Bitcoin</h1>
+                    <h1>TOGETHER</h1>
+                    <br>
+                    <a class="btn btn-danger" href="#SignUpRow">Sign up</a>
+                    <br><br>
+                </div>
+            </div>
+
+            <!-- Image row of cat and bitcoin -->
+            <div class="row">
+                <br>
+                <div class="col-xs-3 imgSpacing">
+                    <img src="/images/cat.png" height=215px width=215px class="img-responsive">
+                </div>
+                <div class="col-xs-3 imgSpacing">
+                    <img src="/images/bitcoin.png" height=215px width=215px class="img-responsive">
+                </div>
+                <div class="col-xs-3 imgSpacing">
+                    <img src="/images/cat.png" height=215px width=215px class="img-responsive">
+                </div>
+                <div class="col-xs-3 imgSpacing">
+                    <img src="/images/bitcoin.png" height=215px width=215px class="img-responsive">
+                </div>
+            </div>
+
+            <!-- Images with text blocks -->
+            <hr>
+            <div class="row rowSpace">
+                <div class="col-md-4">
+                    <img src="/images/cryptocurrency.png" height=128 width=128px class="img-responsive center-block">
+                </div>
+                <div class="col-md-8">
+                    <h2>Crypto will be the future of all currency, now you can step into this future while bringing your cat along with you!</h2>
+                </div>
+            </div>
+            <div class="row rowSpace">
+                <div class="col-md-4 col-md-push-8">
+                    <img src="/images/catpaw.png" height=128 width=128px class="img-responsive center-block">
+                </div>
+                <div class="col-md-8 col-md-pull-4">
+                    <h2>All cats will love this service, as long time cat owners we know what cat owners love most. Their cats!</h2>
+                </div>
+            </div>
+            <div class="row rowSpace">
+                <div class="col-md-4">
+                    <img src="/images/wallet.png" height=128 width=128px class="img-responsive center-block">
+                </div>
+                <div class="col-md-8">
+                    <h2>New ways to manage cats and coins all in one place for all cat lovers to enjoy!</h2>
+                </div>
+            </div>
+
+            <!-- Get user emails -->
+            <hr>
+            <div class="row text-center" id="SignUpRow">
+                <h1>Launching Soon</h1>
+                <h2>Sign-up for Updates</h2>
+                <form action="https://formspree.io/f/signup@meowcoin.com" method="post">
+                    <!-- <label for="email">Your Email</label> -->
+                    <input name="Email" id="email" type="email" placeholder="your email here">
+                    <button type="submit" class="btn-default">Submit</button>
+                </form>
+            </div>
+
+            <!-- All image + icon sources -->
+            <div class="row">
+                <a href="https://www.flaticon.com/free-icons/cat" title="cat icons">Cat icons created by AomAm |</a>
+                <a href="https://www.flaticon.com/free-icons/cat" title="cat icons">Cat icons created by Freepik |</a>
+                <a href="https://www.flaticon.com/free-icons/crypto" title="crypto icons">Crypto icons created by BZZRINCANTATION |</a>
+                <a href="https://www.flaticon.com/free-icons/crypto" title="crypto icons">Crypto icons created by GOWI |</a>
+                <a href="https://www.flaticon.com/free-icons/cat" title="cat icons">Cat icons created by Freepik |</a>
+            </div>
+        </div>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed, Latest compiled and minified JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
+</html>

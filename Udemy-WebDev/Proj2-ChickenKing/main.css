@@ -1,0 +1,39 @@
+#logo {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.textOnImg {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    right: 0%;
+    top: 30%;
+    color: white;
+}
+
+#topRow {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#bottomRow {
+    padding-bottom: 20px;
+}
+
+#phoneNum {
+    background-color: goldenrod;
+}
+
+/* Google maps not functional atm */
+#map { 
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+#pageBottom {
+    background-color: goldenrod;
+}

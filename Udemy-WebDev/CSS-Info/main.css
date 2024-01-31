@@ -1,0 +1,71 @@
+/* This is how we comment css content */ 
+
+/* Setting colours
+#green {
+    background-color: green;
+}
+
+.redstuff {
+    color: red;
+}
+
+h2 {
+    background-color: royalblue;
+} 
+*/
+
+/* Borders, height, width, padding, margins
+h1 {
+    border-style: solid;
+    border-color: crimson;
+    border-width: 10px;
+    
+    height: 30px; 
+    width: 50%; //percentage is based on screen size 
+    
+    padding: 5px 5px 5px 5px;  //top right bottom left 
+    
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+*/
+
+/* text alignment, transformation
+p {
+    text-align: center;
+    text-transform: uppercase;
+}
+*/
+
+/* Using divs & positions
+div {
+    border-style: dotted;
+    width: 500px;
+    padding-left: 10px;
+    
+    position: relative;
+}
+
+#topRight {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-top: 0px;
+}
+*/
+
+/* Hovering over things
+p:hover {
+    background-color: aqua;
+    width: 50%;
+    text-align: center;
+}
+*/
+
+/* Centering & fonts
+p {
+    font-family: sans-serif;
+    width: 50%;
+    margin: auto;
+}
+*/

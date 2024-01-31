@@ -1,0 +1,9 @@
+body {
+    padding-bottom: 40px;
+}
+
+.frameBorder {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}

@@ -1,0 +1,23 @@
+- getbootstrap.com/docs/3.3/    for docs
+- www.pexels.com/               for free images
+- www.flaticon.com/             for free icons
+- formspree.io/                 for taking user emails
+- www.w3schools.com/bootstrap/
+- pixlr.com/                    edit images online
+- fontawesome.com/
+- whatamesh.vercel.app/         create dynamic gradient backgrounds
+- neumorphism.io/
+- app.haikei.app/
+- wave.webaim.org               check web accessibility
+- funkify extension             disability simulator
+- byethost.com                  free website hosting for testing sites
+- cssgradient.io/
+
+Colors to Use:
+- skyblue     #AAC3BF
+- yellow      #FDC059
+- beige       #E6B674
+- darkish     #273B39
+- navy        #001829
+- whitesmoke  #E9EEF4
+- blood-orng  #E65C4F

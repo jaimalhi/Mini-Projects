@@ -1,0 +1,41 @@
+<!-- This is how to comment within HTML files -->
+<!-- /* This is how we comment css content */ -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Fun</title>
+        <!-- link css file to HTML file + classify as stylesheet -->
+        <link href="main.css" rel="stylesheet" type="text/css">
+    </head>
+    
+    <!-- we can add style to body to color the entire page-->
+    <body>
+        <!-- <div> -->
+            <!-- <h1 style="background-color: red"></h1> THIS is a style tag-->
+            <h1 class="redstuff" id="green">I Like CSS</h1>
+            <h1 class="redstuff">Colors of choice</h1>
+            <h1 id="topRight">Using IDs</h1>
+            <h2>Just use a tag as a whole to change all h2's</h2>
+
+            <p>Whole lotta content, whole lotta content, Whole lotta content, whole lotta content, Whole lotta content, whole lotta content</p>
+        <!-- </div> -->
+    </body>
+</html> 
+
+
+<!-- 
+Even though we can add CSS content within HTML files it is better
+to just have a seperate CSS file that we reference within the HTML
+file for easier access and management 
+-->
+
+<!-- We would put this within the head block
+<style>
+    - Within this style block we can set all h1 headers to lightcoral 
+    h1 {
+        background-color: lightcoral
+    } 
+    - However it is smarter to just do this in a .css file
+</style>
+-->
