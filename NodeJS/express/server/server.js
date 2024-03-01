@@ -25,6 +25,7 @@ app.use("/", (req, res, next) => {
    next();
 });
 
+//* HARD CODED DATA EXAMPLE
 // templates
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "./views"));
@@ -59,3 +60,74 @@ app.get("/https", (req, res) => {
 app.listen(port, () => {
    console.log(`App listening at http://localhost:${port}`);
 });
+
+//* DATABASE EXAMPLE
+/*
+// upload file
+app.post('/upload', (req, res) => {
+    console.log(req.files.myImage)
+    // store the file into the server
+    let file = req.files.myImage.data
+    let filename = path.join(__dirname,req.files.myImage.name)
+    // fs.writeFileSync(filename, file)
+    db.helpers.uploadFile(filename, file)
+})
+
+app.get('/viewimg', async (req, res) => {
+    var picture_obj = await db.helpers.getImage(1)
+    res.end(picture_obj.pic)
+        
+})
+
+
+// data
+var people = []
+
+// people API
+app.get('/people-api/all', async (req, res) => {
+    let p = await db.helpers.getPeople()
+    res.json(p)
+    // return res.json(people)
+})
+
+app.post('/people-api/add', async (req, res) => {
+    console.log(req.body)
+    let name = req.body.name
+    let age = req.body.age
+    let instructor = req.body.instructor
+
+    await db.helpers.addPerson(name, age, instructor)
+    res.redirect('/people-api/all')
+
+    // people.push(req.body)
+    // db connection
+    // return res.json({ message: 'person added' })
+})
+
+app.delete('/people-api/delete/:id', async (req, res) => {
+    let id = req.params.id
+
+    await db.helpers.deleteById(id)
+    res.redirect('/people-api/all')
+
+    // people.filter(function(person) {
+    //     return person.id !== id
+    // })
+    // return res.json({ message: `${id} person deleted` })
+})
+
+async function InitDB() {
+    await db.helpers.init()
+    const p = await db.helpers.getPeople()
+    console.log(p)
+    people = p
+}
+
+InitDB()
+    .then(() => { 
+        app.listen(port, () => 
+            console.log(`server is running on port ${port}`) 
+    ) 
+    })
+    .catch((err) => { console.log(err) })
+*/
