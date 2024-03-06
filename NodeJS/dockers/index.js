@@ -16,8 +16,11 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 // app.use(cors());
 
-app.get("/", (req, res) => {
-   res.send("Hello World");
+app.get("/", async (req, res) => {
+   await pool.query(
+      "CREATE TABLE IF NOT EXISTS users (id SERIAL PRIMARY KEY, name VARCHAR(255), age INT)"
+   );
+   res.send("Success: table created");
 });
 
 app.post("/users", async (req, res) => {

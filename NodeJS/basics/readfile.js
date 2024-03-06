@@ -20,6 +20,6 @@ if (newContents !== "No content provided") {
    fs.writeFileSync(filePath, newContents);
    console.log("File updated");
    // read from file
-   contents = fs.readFileSync(filePath, "utf8");
+   contents = fs.readFileSync(filePathf, "utf8");
    console.log(contents);
 }
