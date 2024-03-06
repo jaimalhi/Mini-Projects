@@ -9,3 +9,7 @@
 - `mvc` directory created using `npx express-generator`
 - `server` directory shows basic example using `.ejs` for templating along with some sample data
 - `basic.js` simply shows a bare-bones express application
+
+## Directories | dockers
+- utilizing `Dockerfile` and `docker-compose.yml` to run a simple app
+- App uses express & a postgreSQL database
